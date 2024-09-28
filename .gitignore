@@ -1,0 +1,63 @@
+# Derlenmiş çıktılar
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/kube-log-collector
+
+# Test binary, built with `go test -c`
+*.test
+
+# Çıktı dosyaları
+*.out
+
+# Bağımlılık dizinleri (projede vendoring kullanılmıyorsa)
+/vendor/
+
+# Go çalışma zamanı tarafından oluşturulan dosyalar
+*.o
+*.a
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS tarafından oluşturulan dosyalar
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Temporary dosyalar
+*.tmp
+*.bak
+
+# Go çalışma zamanı tarafından oluşturulan dosyalar
+/_test/
+/debug/
+
+# Özel proje dosyaları (gerekirse ekleyin)
+# config.yaml
+# credentials.json
+
+# Kubeconfig dosyaları (eğer varsa)
+kubeconfig
+*.kubeconfig
+
+# Çıktı dosyaları (eğer projeniz tarafından oluşturuluyorsa)
+/collected_logs/
