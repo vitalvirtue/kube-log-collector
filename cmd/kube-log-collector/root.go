@@ -1,3 +1,7 @@
+/*
+Copyright © 2024 NAME HERE ozkherdem@gmail.com
+
+*/
 package cmd
 
 import (
